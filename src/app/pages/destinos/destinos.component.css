@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.fondo{
+    background: grey;
+    width: 100%;
+    height: calc(99vh - 132px - 61px)
+}

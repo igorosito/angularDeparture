@@ -1,0 +1,307 @@
+.navLink.inicio{
+    color: #C3374F;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    height: 600px;
+    background-image: url(../../../assets/img/index/viaductoBanner.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+h1{
+    font-family: DMSerif;
+    font-size: 120px;
+    color: white;
+    text-shadow: 3px 3px 7px rgba(95, 95, 95, 0.83);
+    font-weight: normal;
+    text-align: center;
+    margin: 0px 10px;
+    padding-top: 223px;
+}
+
+section{
+    margin: 70px 0px;
+}
+
+.viajero-img{
+    max-width: 350px;
+    margin: 20px 0px;
+}
+
+h2{
+    font-family: DMSerif, serif;
+    display: block;
+    font-size: 45px;
+    color: black;
+    font-weight: normal;
+    margin: 0px 20px 10px 20px;
+}
+
+.p-container p{
+    font-family: RalewayRegular, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.a-button{
+    display: inline-block;
+    font-family: RalewayBold, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color:black;
+    border-radius: 5px;
+    padding: 6px 30px;
+    border: solid #C3374F 2px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.a-button:hover{
+    background:#C3374F;
+    color:white;
+    transition-property: background, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+.a-button:active{
+    transform-origin: center;
+    transform: scale(0.92);
+}
+
+
+.servicios img{
+    height: 110px;
+}
+
+.servicios_title{
+    font-family: RalewayBold, sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.wrap__container .servicios p{
+    font-family: RalewayRegular, sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.042em;
+    padding: 0px 53px;
+}
+
+.a-button.card{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+
+.fondo-newslleter{
+    background: linear-gradient(270.1deg, rgba(192, 46, 78, 0.6) 0.08%, rgba(200, 88, 76, 0.6) 48.96%, rgba(218, 149, 69, 0.6) 99.91%);
+}
+
+.card_title{
+    font-family: DMSerif;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0px 0px 0px 20px;
+}
+
+h3{
+    font-family: DMSerif;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0px 0px 0px 20px;
+}
+
+.container-news-text{
+    margin: 0px 0px;
+    padding: 10px 0px;
+}
+
+.p-news{
+    margin: 0px 0px 10px 0px;
+    padding-bottom: 10px;
+}
+
+.container-form{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    border-radius: 0px 5px 5px 0px;
+    background:linear-gradient(90deg, #C02E4E, #DA9546);
+    color: white;
+    text-align: center;
+    font-family: RalewayRegular, sans-serif;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.64);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.input-newslleter{
+    height: 40px;
+    width: 450px;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 15px;
+    border: solid #C02E4E 2px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.64);
+}
+
+input:focus{
+ outline: none;
+ border: solid black 2px;
+ border-right: none;
+ background:  rgba(255, 255, 255, 0.575);
+}
+
+button:hover{
+    background: #C02E4E;
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+button:active{
+    transform: scale(0.9);
+    transform-origin: left;
+}
+
+
+.section-four{
+    margin: 70px 0px 0px 0px;
+    background-image: url(../../../assets/img/index/montaña.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.container.center{
+    text-align: center;
+}
+
+.p-container.center{
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.a-button.two{
+    padding: 10px 30px ;
+    font-size: 16px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.64);
+    margin: 0px 5px 70px 5px;
+    backdrop-filter: blur(5px);
+}
+
+
+
+@media (max-width:1200px){
+
+    header{
+        height: 500px;
+    }
+    h1{
+        font-size: 100px;
+        padding-top: 185px;
+    }
+
+    h2{
+        margin: 0px 20px;
+        text-align: center;
+    }
+
+    .a-button{
+        margin-left: 0px;
+    }
+    
+    .container-news-text{
+        text-align: center;
+        margin: 0px;
+    }
+
+    .container-news-text label h3{
+        margin: 0px;
+    }
+    
+    .news-p-container{
+        margin: 0px auto;
+    }
+    .container-form{
+        display: block;
+        text-align: center;
+    }
+    button{
+        width: 150px;
+        border-radius: 5px;
+        margin: 20px;
+    }
+    
+    .input-newslleter{
+        border-radius: 5px;
+    }
+    
+    .input-newslleter:focus{
+        border: solid black 2px;
+    }
+    
+    button:active{
+        transform-origin: center;
+    }
+    
+    .container__flex .logo{
+        margin: 20px 20px;
+    }
+
+    .p-container p{
+        margin: 0px 5px;
+    }
+    
+}
+
+@media (max-width:790px){
+
+    header{
+        height: 400px;
+    }
+
+    h1{
+        font-size: 60px;
+        padding-top: 168px;
+    }
+
+}
+
+@media (max-width:576px){
+    
+    .viajero-img{
+    max-width: 250px;
+    margin: 20px 0px;
+    }
+    .input-newslleter{
+        width: calc(100% - 50px);
+    }
+    .a-button.two{
+        padding: 10px 30px ;
+        margin: 5px;
+    }
+
+    .section-four .container.center{
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width:485px){
+    header{
+        height: 300px;
+    }
+
+    h1{
+        font-size: 40px;
+        padding-top: 137px;
+        line-height: 110%;
+    }
+}

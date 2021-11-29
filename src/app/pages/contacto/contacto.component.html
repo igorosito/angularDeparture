@@ -1,0 +1,100 @@
+<main>
+    <section>
+
+            <div class="container__flex">
+                <div>
+                    <h1>Detalles del viaje</h1>
+                    <div class="p-container-plan"><p class="description">Cada vez estas mas cerca de concretar tu viaje soñado. A continuacion te dejamos un formulario para que completes detallando los aspectos fundamentales de tu viaje, para que podamos conocer cual es tu idea y juntos podamos armar el viaje de tus sueños.</p></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <label for="destino"><h2>A donde querés viajar?</h2></label>
+                <div class="form-container">
+                    <form action="#"><input class="input normal" name="destino" id="destino" type="text" placeholder="Ingrese el destino deseado..."></form>
+                </div>
+                <label for="duracion"><h2>Duración del viaje?</h2></label>
+                <div class="form-container">
+                    <form action="#"><input class="input normal" name="duracion" id="duracion" type="text" placeholder="Ingrese cuanto tiempo durara su viaje..."></form>
+                </div>
+
+                <div class="flex-form">
+                    <div class="form-container">
+                        <label for="adultos"><h2>Adultos</h2></label>
+                        <form action="#"><input class="input short" name="adultos" id="adultos" type="text" placeholder="Ingrese cantidad de adultos..."></form>
+                    </div>
+                    <div class="form-container">
+                        <label for="menores"><h2>Menores</h2></label>
+                        <form action="#"><input class="input short" name="menores" id="menores" type="text" placeholder="Ingrese cantidad de menores..."></form>
+                    </div>
+                </div>
+
+                <h2>Presupuesto estimado (por persona)</h2>
+                <div class="form-container">
+                    <form class="input__flex" action="#">
+                        <label class="valorLabel"><input type="radio" name="presupuesto" value="1500-2000" checked>1500/2000 U$D</label>
+                        <label class="valorLabel"><input type="radio" name="presupuesto" value="2000-2500" >2000/2500 U$D</label>
+                        <label class="valorLabel"><input type="radio" name="presupuesto" value="2500-3000" >2500/3000 U$D</label>
+                        <label class="valorLabel"><input type="radio" name="presupuesto" value="+3000" >Más de 3000 U$D</label>
+                    </form>
+                </div>
+
+                <div class="form-container">
+                    <label for="actividades"><h2>Que actividades le gustaría realizar?</h2></label>
+                    <textarea name="actividades" id="actividades" placeholder="Díganos que le gustaría ver, el tipo de actividades que desea hacer en su viaje o que atracciones no quiere perderse..."></textarea>
+                </div>
+
+            </div>
+
+    </section>
+
+    <section class="section-final">
+        <div class="container__flex">
+            <div>
+                <span class="spanTitle">Datos Personales</span>
+                <div class="p-container-plan"><p class="description">Completa con tus datos personales el siguiente formulario para que podamos ponernos en contacto contigo lo antes posible.</p></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <label for="nombre"><h2>Nombre y Apellido</h2></label>
+            <div class="form-container">
+                <form action="#"><input class="input normal" name="nombre" id="nombre" type="text" placeholder="Ingrese su nombre y apellido..."></form>
+            </div>
+        </div>
+
+        <div class="container">
+            <label for="telefono"><h2>Número de contacto</h2></label>
+            <div class="form-container">
+                <form action="#"><input class="input normal" name="telefono" id="telefono" type="tel" placeholder="Ingrese un número de contacto..."></form>
+            </div>
+        </div>
+
+        <div class="container">
+            <label for="correoElectronico"><h2>Correo Electrónico</h2></label>
+            <div class="form-container">
+                <form action="#"><input class="input normal" name="correoElectronico" id="correoElectronico" type="email" placeholder="Ingrese un correo electrónico..."></form>
+            </div>
+        </div>
+
+        <div class="container">
+            <label for="residencia"><h2>País de residencia</h2></label>
+            <div class="form-container">
+                <form action="#"><input class="input normal" name="residencia" id="residencia" type="text" placeholder="Ingrese donde reside actualmente..."></form>
+            </div>
+        </div>
+
+        
+        <div class="form-container">
+            <form class="input__flex suscribe" action="#">
+                <label class="valorLabel"><input type="checkbox" name="newsletter" value="suscribe" checked>Suscribirme al Newsletter para recibir ofertas exclusivas</label>
+            </form>
+        </div>
+
+        <div class="buttonContainer">
+            <button type="submit">Solicitar presupuesto</button>
+        </div>
+
+    </section>
+
+</main>

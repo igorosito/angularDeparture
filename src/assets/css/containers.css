@@ -1,0 +1,131 @@
+.container__flex-sb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    max-width: 1920px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.container__flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.p-container{
+    max-width: 382px;
+    margin-left: 20px;
+    line-height: 170%;
+    letter-spacing: -0.017em;
+}
+
+.wrap__container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.servicios{
+    width: 285px;
+}
+
+.card__container{
+    border: solid #e4e4e4 2px;
+    border-radius: 5px;
+    background: gray;
+    height: 400px;
+    width: 275px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.64);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin: 10px 10px;
+} 
+
+.card-info{
+    background: rgb(255,255,255, 85%);
+    height: 160px;
+    width: 275px;
+    position: absolute;
+    bottom: -29.5%;
+    transition-property: bottom;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+
+}
+
+.wrap__container.cards{
+    margin: 60px auto;
+    text-align: left;
+}
+
+
+.card__container:hover .card-info{
+    bottom: 0%;
+}
+
+.card-title{
+    color: black;
+    font-family:RalewaySemibold, sans-serif;
+    font-size: 20px;
+    margin: 10px;    
+}
+.card-text{
+    color: black;
+    font-family: RalewayRegular, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    line-height: 20px;
+}
+
+.container__flex-sb.mid{
+    max-width: 1200px;
+}
+
+@media (max-width:1200px){
+    .container__flex{
+        display: block;
+        text-align: center;
+    }
+
+    .p-container{
+        margin:0px auto;
+    }
+
+    .container__flex-sb.mid{
+        display: block;
+    }
+}
+
+@media (max-width:790px){
+
+    .container-nav{
+        display: none;
+    }
+    .ham{
+        display: block;
+        text-align: center;
+    }
+    #ham-menu:checked + .nav-responsive{
+        display: flex;
+    }
+    #selected-a-responsive{
+        color: #C02E4E;
+    }
+
+    .card-info{
+        bottom: 0%;
+    }
+
+
+}

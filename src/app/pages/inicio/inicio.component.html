@@ -1,0 +1,100 @@
+<header>
+    <h1>Conoce el Mundo</h1>
+</header>
+
+<main>
+
+    <Section>
+        <div class="container">
+            <div class="container__flex">
+                <img class="viajero-img" src="../../../assets/img/index/imagen-SO-first.png" alt="viajero con pasajes aereos">
+                <div>
+                    <h2>Nuestros Servicios</h2>
+                    <div class="p-container">
+                        <p>Nuestro equipo se encuentra a cargo de la organizacion de viajes familiares, escolares y con
+                            amigos. Trabajamos en conjunto con diversas ciudades de todas partes del mundo planificando
+                            cientos de viajes cada dia, y dejando a miles de clientes totalmente satisfechos.</p>
+                    </div>
+                    <a class="a-button" href="/nosotros">Conocer más</a>
+                </div>
+            </div>
+            <div class="wrap__container">
+                <div class="servicios">
+                    <img src="../../../assets/img/index/Planificacion-s1.svg" alt="Servicio de planificacion">
+                    <h3 class="servicios_title">Planificación</h3>
+                    <p>Ofrecemos varios paquetes o nuestra ayuda para planificar tu viaje.</p>
+                </div>
+                <div class="servicios">
+                    <img src="../../../assets/img/index/Transporte-s1-08.svg" alt="Servicos de transporte">
+                    <h3 class="servicios_title">Transporte</h3>
+                    <p>Te ofrecemos los transportes hasta tu hotel y excursiones.</p>
+                </div>
+                <div class="servicios">
+                    <img src="../../../assets/img/index/Alojamiento-s1.svg" alt="Servicio de alojamiento">
+                    <h3 class="servicios_title">Alojamiento</h3>
+                    <p>Elegí entre los hoteles que te ofrecemos, con excelentes ubicaciones.</p>
+                </div>
+                <div class="servicios">
+                    <img src="../../../assets/img/index/Excursiones-s1.svg" alt="Servicio de excursiones">
+                    <h3 class="servicios_title">Excursiones</h3>
+                    <p>Selecciona las mejores excursiones y reserva desde tu casa.</p>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <section>
+            <div class="container">
+                <h2>Destinos Preferidos</h2>
+            </div>
+            <div class="wrap__container cards">
+
+                <div *ngFor="let trips of servicios.viaje" class="card__container">
+                    <img src="{{trips.url}}" alt="Destinos del mundo">
+                    <div class="card-info">
+                        <h3 class="card-title">{{trips.destino}}</h3>
+                        <p class="card-text">{{trips.descripcion}}</p>
+                        <a class="a-button card" href="#">MÁS INFO</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    <section>
+        <div class="fondo-newslleter">
+            <div class="container__flex-sb mid">
+                <div class="container-news-text">
+                    <label for="suscribe">
+                        <h3>Newsletter</h3>
+                    </label>
+                    <div class="p-container">
+                        <p class="p-news">Suscríbete a nuestro Newsletter y recibe notificaciones de increíbles ofertas
+                            y novedades. Te enviaremos exclusivas ofertas armadas para vos y tu familia.</p>
+                    </div>
+                </div>
+                <div class="container-form">
+                    <form action="get"><input class="input-newslleter" name="suscribe" id="suscribe" type="email"
+                            placeholder="Coloque su email aqui..."></form>
+                    <button>Suscribirse</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-four">
+        <div class="container center">
+            <h2 class="h2">Tu aventura esta por comenzar</h2>
+            <div class="p-container center">
+                <p>Nuestro equipo se encuentra a cargo de la organizacion de viajes familiares, escolares y con amigos.
+                    Trabajamos en conjunto con diversas ciudades de todas partes del mundo planificando cientos de
+                    viajes cada dia, y dejando a miles de clientes totalmente satisfechos.</p>
+            </div>
+            <a class="a-button two" href="/destinos">Ver más destinos</a>
+            <a class="a-button two" href="/planificar">Planificar mi viaje</a>
+        </div>
+    </section>
+
+</main>
+
+<script src="../../../assets/js/main.js"></script>

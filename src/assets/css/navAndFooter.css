@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+
+@font-face {
+    font-family: RalewaySemibold;
+    src: url(../../assets/typo/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: RalewayBold;
+    src: url(../../assets/typo/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: RalewayRegular;
+    src: url(../../assets/typo/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: DMSerif;
+    src: url(../../assets/typo/DMSerif-Reg.ttf);
+}
+
+
+/* <---------------------------------Nav Bar--------------------------------------> */
+
+nav{
+    background-color: rgb(245, 245, 245);
+}
+
+
+.logo-container a img{
+    width: 160px;
+    margin: 10px 20px;
+}
+
+.logo-container a{
+    display: inline-block;
+}
+
+.container-nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-nav ul li{
+    list-style: none;
+}
+
+.navLink{
+    display: inline-block;
+    text-decoration: none;
+    font-family: RalewaySemibold, sans-serif;
+    font-size: 18px;
+    color: black;
+    padding: 20px;
+}
+
+
+.linea-nav{
+    height: 2px;
+    background: linear-gradient(90deg, #DA9545, #C02E4E);
+}
+
+.container-nav ul li:hover{
+    background: rgb(214, 214, 214);
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+.container-nav ul li a:active{
+    transform: scale(0.9);
+}
+
+.nav-responsive{
+    display: none;
+}
+
+.ham{
+    display: none;
+    padding: 16.5px;
+}
+
+.nav-responsive{
+
+    display: none;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 63px;
+}
+
+.nav-responsive li{
+    list-style: none;
+}
+
+.nav-responsive li a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: RalewaySemibold, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 18px;
+}
+.nav-responsive li a:hover{
+    background: rgb(214, 214, 214);
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+.ham:hover{
+    background: rgb(214, 214, 214);
+    transition-property: background;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+/* <---------------------------------Footer--------------------------------------> */
+
+
+footer{
+    background-color: rgb(245, 245, 245);
+}
+
+.container__flex .logo{
+    width: 160px;
+    margin: 20px;
+    padding: 0px;
+}
+.container__flex .social-icon{
+    width: 25px;
+    margin: 20px;
+    padding: 0px;
+}
+
+.container-legal{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.container-legal p{
+    font-family: RalewayRegular, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+.container-legal a{
+    display: inline-block;
+    font-family: RalewayRegular, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.container-legal a:hover{
+    color:#C02E4E;
+}
+
+
+
+/* <---------------------------------Responsive-------------------------------------> */
+
+@media (max-width:1200px){
+    .container-legal{
+        margin: 0px;
+    }
+}
+
+@media (max-width:790px){
+
+    .container-nav{
+        display: none;
+    }
+    .ham{
+        display: block;
+        text-align: center;
+    }
+    .nav-responsive.navActive{
+        display: flex;
+      animation: muestraMenu 350ms ease-in-out both;
+    }
+    #selected-a-responsive{
+        color: #C02E4E;
+    }
+    
+}
+
+/* <---------------------------------animation-------------------------------------> */
+
+@keyframes muestraMenu {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
