@@ -94,16 +94,16 @@ h2{
     margin-top: 0px;
 }
 
+.card-title{
+    color: black;
+    font-family: RalewaySemibold, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
 
 .fondo-newslleter{
     background: linear-gradient(270.1deg, rgba(192, 46, 78, 0.6) 0.08%, rgba(200, 88, 76, 0.6) 48.96%, rgba(218, 149, 69, 0.6) 99.91%);
-}
-
-.card_title{
-    font-family: DMSerif;
-    font-size: 40px;
-    font-weight: normal;
-    margin: 0px 0px 0px 20px;
 }
 
 h3{

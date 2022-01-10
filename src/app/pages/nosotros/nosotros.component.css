@@ -1,0 +1,301 @@
+.navLink.nosotros{
+    color: #C3374F;
+}
+
+.section-one{
+    padding-top: 40px;
+}
+
+.viajera-img{
+    max-width: 350px;
+    margin: 20px 0px;
+}
+
+h2{
+    font-family: DMSerif, serif;
+    font-size: 45px;
+    color: black;
+    font-weight: normal;
+    margin: 0px 20px 10px 20px;
+}
+
+.p-container-two{
+    max-width: 620px;
+    margin-left: 20px;
+    line-height: 170%;
+    letter-spacing: -0.017em;
+}
+
+.p-container-two p{
+    font-family: RalewayRegular, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.section-two{
+    padding-top: 40px;
+}
+
+.servicios{
+    margin-top: 20px;
+}
+
+.serviciosTitulo{
+    font-family: DMSerif, serif;
+    font-size: 45px;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+}
+
+.servicios img{
+    height: 110px;
+}
+
+.servicioTitulo{
+    font-family: RalewayBold, sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.wrap__container .servicios p{
+    font-family: RalewayRegular, sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.042em;
+    padding: 0px 53px;
+}
+
+.section-three{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+ul, ol {
+	list-style: none;
+    padding: 0px;
+}
+
+.slideshow {
+	position: relative;
+	width: 100%;
+}
+
+.slider li, ul {
+	width: 100%;
+}
+
+.slider li {
+	overflow: hidden;
+}
+
+.slideshow li img {
+	width: 100%;
+}
+
+.slider .caption, .pagination, .left, .right {
+	position: absolute;
+}
+
+.slider .caption {
+	align-items: center;
+	color: #ffffff;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	left: 0;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.slider .caption h1, .slider .caption p, .left i, .right i {
+	text-shadow: 0 0 5px #000000;
+}
+
+.slider .caption h1 {
+	font-size: 50px;
+}
+
+.slider .caption p {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	top: 102%;
+	width: 100%;
+}
+
+.pagination li{
+	color: #cfcfcf;
+	cursor: pointer;
+	font-size: 15px;
+    padding: 10px;
+	margin: 2px 5px;
+}
+
+.left, .right {
+	align-items: center;
+	color: #ffffff;
+	cursor: pointer;
+	display: flex;
+	font-size: 35px;
+	height: 100%;
+	top: 0;
+	z-index: 2;
+}
+
+.left {
+	left: 10px;
+}
+
+.right {
+	right: 10px;
+}
+
+
+
+
+.section-four{
+    padding: 20px 0px 100px 0px;
+    background-image: url("../../../assets/img/nosotros/dunas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.containerTel{
+    border: solid #C3374F 2px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    width: 285px;
+    height: 191px;
+    margin:5px;
+    backdrop-filter: blur(5px);
+}
+
+.containerMail{
+    border: solid #C3374F 2px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    width: 493px;
+    height: 191px;
+    margin:5px;
+    backdrop-filter: blur(5px);
+}
+
+.contactImg{
+    width: 72px;
+    margin-top: 30px;
+}
+
+.contactInfo{
+    font-family: DMSerif, serif;
+    font-weight: normal;
+    font-size: 30px;
+    display: block;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 30px;
+    background:none;
+    border: solid #C3374F 2px;
+    border-radius: 5px;
+    color: black;
+    font-family: RalewayBold, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 40px 10px 0px 10px;
+    box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 64%);
+    backdrop-filter: blur(5px);
+}
+
+.button:hover{
+    background:#C3374F;
+    color:white;
+    transition-property: background, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.button:active{
+    transform-origin: center;
+    transform: scale(0.92);
+}
+
+@media (max-width:1200px){
+    .p-container-two{
+        margin: 0px auto;
+        padding:0px 25px
+    }
+    
+    .p-container-two p{
+        text-align: center;
+    }
+    .containerTel{
+        width: 265px;
+        height: 171px;
+    }
+    
+    .containerMail{
+        width: 473px;
+        height: 171px;
+    }
+    
+    .contactImg{
+        width: 65px;
+    }
+    
+    .contactInfo{
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width:790px){
+
+    .containerTel{
+        width: 205px;
+        height: 111px;
+    }
+    
+    .containerMail{
+        width: 300px;
+        height: 111px;
+    }
+    
+    .contactImg{
+        width: 55px;
+        margin-top: 11px;
+    }
+    
+    .contactInfo{
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+	.slider li img {
+		width: 600px;
+	}
+	
+	.pagination {
+		display: none;
+	}
+	
+	.left, .right {
+		font-size: 30px;
+	}
+}

@@ -60,6 +60,10 @@ nav{
     padding: 20px;
 }
 
+.navLink:hover{
+    color: #C02E4E;
+}
+
 
 .linea-nav{
     height: 2px;
@@ -84,6 +88,12 @@ nav{
 .ham{
     display: none;
     padding: 16.5px;
+    cursor: pointer;
+}
+
+/* NUEVOOO */
+.ham-input{
+    display: none;
 }
 
 .nav-responsive{
@@ -112,6 +122,7 @@ nav{
 }
 .nav-responsive li a:hover{
     background: rgb(214, 214, 214);
+    color: #C02E4E;
     transition-property: background;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
