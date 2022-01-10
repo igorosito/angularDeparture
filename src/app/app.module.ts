@@ -10,6 +10,8 @@ import { DestinosComponent } from './pages/destinos/destinos.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

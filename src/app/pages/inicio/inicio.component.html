@@ -74,15 +74,16 @@
                     </div>
                 </div>
                 <div class="container-form">
-                    <form action="get"><input class="input-newslleter" name="suscribe" id="suscribe" type="email"
-                            placeholder="Coloque su email aqui..."></form>
-                    <button>Suscribirse</button>
+                    <form class="form-newslleter" name="suscribirse" method="POST" action="https://formspree.io/f/mwkypgpn">
+                        <input class="input-newslleter" name="suscribe" id="suscribe" type="email" placeholder="Coloque su email aqui..." required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section-four">
+    <section class="section-four" id="final">
         <div class="container center">
             <h2 class="h2">Tu aventura esta por comenzar</h2>
             <div class="p-container center">

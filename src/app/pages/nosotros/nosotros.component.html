@@ -80,37 +80,12 @@
 
     <section class="section-three">
 
-        <div class="slideshow">
-            <ul class="slider">
-                <li>
-                    <img src="../../../assets//img/nosotros/slider-ciudad-one.jpg" alt="Ciudad con edificios">
-                </li>
-
-                <li>
-                    <img src="../../../assets//img/nosotros/slider-paisaje-atardecer.jpg" alt="Atardecer">
-                </li>
-
-                <li>
-                    <img src="../../../assets//img/nosotros/slider-paisaje-montañas.jpg" alt="Paisaje Montañas">
-                </li>
-
-                <li>
-                    <img src="../../../assets//img/nosotros/slider-paisaje-volcano.jpg" alt="Paisaje Volcano">
-                </li>
-            </ul>
-
-            <ol class="pagination"></ol>
-
-            <div class="left">
-                <i class="fa fa-chevron-left"></i>
-            </div>
-
-            <div class="right">
-                <i class="fa fa-chevron-right"></i>
-            </div>
-        </div>
-
-
+        <owl-carousel-o [options]="customOptions">
+          <ng-template carouselSlide><img src="../../../assets/img/nosotros/slider-ciudad-one.jpg" alt="ciudad"></ng-template>  
+          <ng-template carouselSlide><img src="../../../assets/img/nosotros/slider-paisaje-atardecer.jpg" alt="atardecer"></ng-template>  
+          <ng-template carouselSlide><img src="../../../assets/img/nosotros/slider-paisaje-montañas.jpg" alt="montañas"></ng-template>
+          <ng-template carouselSlide><img src="../../../assets/img/nosotros/slider-paisaje-volcano.jpg" alt="volcan"></ng-template>
+        </owl-carousel-o>
 
     </section>
 

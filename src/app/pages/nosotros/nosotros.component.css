@@ -74,92 +74,15 @@ h2{
 
 
 
-ul, ol {
-	list-style: none;
-    padding: 0px;
-}
 
-.slideshow {
-	position: relative;
-	width: 100%;
-}
 
-.slider li, ul {
-	width: 100%;
-}
 
-.slider li {
-	overflow: hidden;
-}
+  
 
-.slideshow li img {
-	width: 100%;
-}
 
-.slider .caption, .pagination, .left, .right {
-	position: absolute;
-}
 
-.slider .caption {
-	align-items: center;
-	color: #ffffff;
-	display: flex;
-	height: 100%;
-	flex-direction: column;
-	justify-content: center;
-	left: 0;
-	text-align: center;
-	top: 0;
-	width: 100%;
-	z-index: 1;
-}
 
-.slider .caption h1, .slider .caption p, .left i, .right i {
-	text-shadow: 0 0 5px #000000;
-}
 
-.slider .caption h1 {
-	font-size: 50px;
-}
-
-.slider .caption p {
-	font-size: 20px;
-	margin-top: 10px;
-}
-
-.pagination {
-	display: flex;
-	justify-content: center;
-	top: 102%;
-	width: 100%;
-}
-
-.pagination li{
-	color: #cfcfcf;
-	cursor: pointer;
-	font-size: 15px;
-    padding: 10px;
-	margin: 2px 5px;
-}
-
-.left, .right {
-	align-items: center;
-	color: #ffffff;
-	cursor: pointer;
-	display: flex;
-	font-size: 35px;
-	height: 100%;
-	top: 0;
-	z-index: 2;
-}
-
-.left {
-	left: 10px;
-}
-
-.right {
-	right: 10px;
-}
 
 
 

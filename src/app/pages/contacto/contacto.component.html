@@ -1,4 +1,5 @@
 <main>
+
     <section class="section-final">
 
         <div class="container__flex">
@@ -13,20 +14,20 @@
         </div>
 
 
-        <form name="contact" netlify>
+        <form name="contact" method="POST" action="https://formspree.io/f/mwkypgpn">
             <div class="container">
                 <label for="destino">
                     <h2>A donde querés viajar?</h2>
                 </label>
     
                 <div class="form-container">
-                    <input class="input normal" name="destino" id="destino" type="text" placeholder="Ingrese el destino deseado...">
+                    <input class="input normal" name="destino" id="destino" type="text" placeholder="Ingrese el destino deseado..." required>
                 </div>
                 <label for="duracion">
                     <h2>Duración del viaje?</h2>
                 </label>
                 <div class="form-container">
-                    <input class="input normal" name="duracion" id="duracion" type="text" placeholder="Ingrese cuanto tiempo durara su viaje...">
+                    <input class="input normal" name="duracion" id="duracion" type="text" placeholder="Ingrese cuanto tiempo durara su viaje..." required>
                 </div>
     
                 <div class="flex-form">
@@ -34,13 +35,13 @@
                         <label for="adultos">
                             <h2>Adultos</h2>
                         </label>
-                        <input class="input short" name="adultos" id="adultos" type="text" placeholder="Ingrese cantidad de adultos...">
+                        <input class="input short" name="adultos" id="adultos" type="text" placeholder="Ingrese cantidad de adultos..." required>
                     </div>
                     <div class="form-container">
                         <label for="menores">
                             <h2>Menores</h2>
                         </label>
-                        <input class="input short" name="menores" id="menores" type="text" placeholder="Ingrese cantidad de menores...">
+                        <input class="input short" name="menores" id="menores" type="text" placeholder="Ingrese cantidad de menores..." required>
                     </div>
                 </div>
     
@@ -83,7 +84,7 @@
                     <h2>Nombre y Apellido</h2>
                 </label>
                 <div class="form-container">
-                    <input class="input normal" name="nombre" id="nombre" type="text" placeholder="Ingrese su nombre y apellido...">
+                    <input class="input normal" name="nombre" id="nombre" type="text" placeholder="Ingrese su nombre y apellido..." required>
                 </div>
             </div>
     
@@ -92,7 +93,7 @@
                     <h2>Número de contacto</h2>
                 </label>
                 <div class="form-container">
-                    <input class="input normal" name="telefono" id="telefono" type="tel" placeholder="Ingrese un número de contacto...">
+                    <input class="input normal" name="telefono" id="telefono" type="tel" placeholder="Ingrese un número de contacto..."required>
                 </div>
             </div>
     
@@ -101,7 +102,7 @@
                     <h2>Correo Electrónico</h2>
                 </label>
                 <div class="form-container">
-                    <input class="input normal" name="correoElectronico" id="correoElectronico" type="email" placeholder="Ingrese un correo electrónico...">
+                    <input class="input normal" name="correoElectronico" id="correoElectronico" type="email" placeholder="Ingrese un correo electrónico..." required>
                 </div>
             </div>
     
@@ -110,7 +111,7 @@
                     <h2>País de residencia</h2>
                 </label>
                 <div class="form-container">
-                   <input class="input normal" name="residencia" id="residencia" type="text" placeholder="Ingrese donde reside actualmente...">
+                   <input class="input normal" name="residencia" id="residencia" type="text" placeholder="Ingrese donde reside actualmente..." required>
                 </div>
             </div>
     
@@ -123,8 +124,9 @@
             </div>
     
             <div class="buttonContainer">
-                <button type="submit">Solicitar presupuesto</button>
+                <button class="inputEnviar" type="submit">Solicitar presupuesto</button>
             </div>
+            
         </form>
 
 

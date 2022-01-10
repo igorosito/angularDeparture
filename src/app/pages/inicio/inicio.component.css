@@ -239,6 +239,13 @@ button:active{
         border-radius: 5px;
         margin: 20px;
     }
+
+    .form-newslleter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
     .input-newslleter{
         border-radius: 5px;
