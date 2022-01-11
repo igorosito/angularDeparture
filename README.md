@@ -1,27 +1,20 @@
-# Angular
+# Departure Travels
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+Departure es un pagina que te permite escoger entre distintos paquetes de viajes por todo el mundo. Podes elegir entre paquetes ya armados, los cuales incluyen alojamientos, pasajes, excursiones, entre otros. O podes completar el formulario de contacto detallando cuales son las expectativas del viaje de tus sueños.
 
-## Development server
+## Desarollo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+El frontend de la pagina fue realizado mediante Angular, incorporando navegacion entre paginas, animaciones en las cards y diseño responsive.
+Los formularios, tanto el de la pagina de contacto como la suscripcion al newsletter se encuentran activos. Utilizando tecnologia de backend de formspree.io para que dicha informacion completada en los diversos campos llega a nuestro email.
 
-## Code scaffolding
+## Base de datos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Utilizamos un Base de Datos alojada en Firebase (noSQL DB), dicha base contiene informacion de los distintos paquetes de viajes que ofrecemos. y es utilizada para generar las cards de nuestra pagina principal. Con datos que nos permiten en un futuro generar busquedas adaptadas, como por ejemplo filtrar viejes segun el destino.
 
-## Build
+## Deploy
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+El deploy fue realizado en un hosting gratuito (netlify) utilizando el CLI de netlify que nos permitio realizar un deploy de nuestro sitio para demostrar su funcionalidad. 
 
-## Running unit tests
+## Autor
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Ignacio Gorosito
