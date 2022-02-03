@@ -21,7 +21,7 @@ export class InfoPaginaService {
   }
 
   private cargarViajes(){
-    this.http.get('https://departuredata-c9ab9-default-rtdb.firebaseio.com/viajes.json')
+    this.http.get('https://departuredb-3703e-default-rtdb.firebaseio.com/viajes.json')
     .subscribe((resp: any) => {
       console.log(resp);
       this.viaje = resp;
